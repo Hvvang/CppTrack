@@ -7,6 +7,7 @@
 #include <sstream>
 #include <algorithm>
 #include <regex>
+#include <sys/stat.h>
 
 void uniqueWords(const std::set<std::string>& uWords,
                  const std::string& file_name);

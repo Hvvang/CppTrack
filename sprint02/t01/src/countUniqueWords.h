@@ -7,6 +7,7 @@
 #include <sstream>
 #include <algorithm>
 #include <regex>
+#include <sys/stat.h>
 
 void countUniqueWords(const std::multiset<std::string>& uWords,
                       const std::string& file_name);
