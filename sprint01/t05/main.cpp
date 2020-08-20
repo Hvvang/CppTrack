@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
             return 1;
         }
     } else {
-        std::cerr << "usage: ./stdAlgoV1 [file_name]" << '\n';
+        std::cerr << "usage: ./stdAlgoV2 [file_name]" << '\n';
         return 1;
     }
     return 0;
