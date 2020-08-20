@@ -17,14 +17,13 @@ int main(int argc, char** argv) {
                 }
                 file.close();
                 uniqueWords(uWords, createOutputFileName(argv[1]));
-            } else {
-                std::cerr << "error" << "\n";
-                return 1;
+                return 0;
             }
         }
+        std::cerr << "error" << "\n";
+        return 1;
     } else {
         std::cerr << "usage: ./uniqueWords [file_name]" << '\n';
         return 1;
     }
-    return 0;
 }

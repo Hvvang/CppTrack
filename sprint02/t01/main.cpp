@@ -17,14 +17,13 @@ int main(int argc, char** argv) {
                 }
                 file.close();
                 countUniqueWords(uWords, createOutputFileName(argv[1]));
-            } else {
-                std::cerr << "error" << "\n";
-                return 1;
+                return 0;
             }
         }
+        std::cerr << "error" << "\n";
+        return 1;
     } else {
         std::cerr << "usage: ./countUniqueWords [file_name]" << '\n';
         return 1;
     }
-    return 0;
 }
