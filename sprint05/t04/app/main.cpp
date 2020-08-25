@@ -30,7 +30,7 @@ bool argsValidator(char **argv, int& swordDmg, int& axeDmg) {
 }
 
 ImperialSoldier initImperial(const int& swordDmg) {
-    ImperialSoldier imperialSoldier;
+    ImperialSoldier imperialSoldier("Martin", 100);
     Sword *sword = new Sword(swordDmg);
 
     imperialSoldier.setWeapon(sword);
@@ -38,7 +38,7 @@ ImperialSoldier initImperial(const int& swordDmg) {
 }
 
 StormcloakSoldier initStormcloak(const int& axeDmg) {
-    StormcloakSoldier stormcloakSoldier;
+    StormcloakSoldier stormcloakSoldier("Flynn", 100);
     Axe *axe = new Axe(axeDmg);
 
     stormcloakSoldier.setWeapon(axe);

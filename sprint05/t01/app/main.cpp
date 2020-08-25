@@ -27,15 +27,15 @@ int main(int argc, char** argv) {
         try {
             argsValidator(argc, argv);
             int shoutNumber = std::stoi(std::string(argv[1]));
-            
+
             if (argc == 2) {
                 Draugr *draugr1 = new Draugr();
                 draugr1->shoutPhrase(shoutNumber);
             } else if (argc == 3) {
                 Draugr draugr1(std::stod(std::string(argv[2])));
                 draugr1.shoutPhrase(shoutNumber);
-                Draugr draugr2(std::stoi(std::string(argv[2])));
-                draugr2.shoutPhrase(shoutNumber);
+                // Draugr draugr2(std::stoi(std::string(argv[2])));
+                // draugr2.shoutPhrase(shoutNumber);
             } else {
                 Draugr draugr1(std::stod(std::string(argv[2])), std::stoi(std::string(argv[3])));
                 draugr1.shoutPhrase(shoutNumber);

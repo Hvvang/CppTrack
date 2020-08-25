@@ -16,22 +16,13 @@ int Soldier::getHealth() const {
     return m_health;
 }
 
-std::string Soldier::getName() const {
-    return m_name;
-}
-
 void Soldier::setWeapon(Weapon* weapon) {
     m_weapon = weapon;
 }
 
-void Soldier::consumeDamage(int amount) {
-    m_health -= amount;
-}
-
 void Soldier::attack(Soldier& other) {
     int damage = m_weapon->getDamage();
-    std::string name = other.getName();
 
-    std::cout << m_name << " attacks " << name << " and deals " << damage << " damage" << '\n';
-    other.consumeDamage(damage);
+    std::cout << m_name << " attacks " << other.m_name << " and deals " << damage << " damage" << '\n';
+    other.m_health -= damage;
 }

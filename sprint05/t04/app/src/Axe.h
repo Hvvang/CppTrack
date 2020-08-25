@@ -5,5 +5,5 @@
 class Weapon;
 class Axe final: public Weapon {
 public:
-    explicit Axe(int damage) : Weapon{damage} {}
+    explicit Axe(int damage);
 };

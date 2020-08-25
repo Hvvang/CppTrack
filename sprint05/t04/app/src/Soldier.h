@@ -6,13 +6,11 @@
 class Weapon;
 class Soldier {
 public:
-    Soldier(std::string&& name, int health);
+    Soldier(std::string&& name, int health = 100);
     virtual ~Soldier();
     void attack(Soldier& other);
-    void consumeDamage(int amount);
     void setWeapon(Weapon* weapon);
     int getHealth() const;
-    std::string getName() const;
 
 private:
     Weapon* m_weapon;
