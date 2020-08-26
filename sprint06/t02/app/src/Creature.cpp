@@ -27,7 +27,7 @@ void Creatures::Creature::castSpell(const Spells::SpellType type, Creature& crea
         return spell->getType() == type;
     });
     if (it != m_spells.end()) {
-        if ((*it)->getManaCost() <= m_mana) {
+        if ((*it)->getManaCost() <= m_mana && (*this).getHealth() > 0) {
             (*it)->cast(*this, creature);
             std::cout << m_name << " casted " << (*it)->getSpellName()
                       << " spell on " << creature.getName() << "!\n";
