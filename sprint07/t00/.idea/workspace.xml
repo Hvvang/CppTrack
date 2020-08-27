@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project" targetName="vector" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19c7f08f-1dd5-4835-81d7-920d145faaa2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-vector" />
+  </component>
+  <component name="ProjectId" id="1gdexhT7ylOzb0JMEOAEdSXaXAV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vector" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="vector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="vector">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19c7f08f-1dd5-4835-81d7-920d145faaa2" name="Default Changelist" comment="" />
+      <created>1598449145102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598449145102</updated>
+      <workItem from="1598449146298" duration="24885000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598471025954">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="578" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.976@0.23.1680.976" timestamp="1598471025954" />
+    <state width="1638" height="145" key="GridCell.Tab.0.bottom" timestamp="1598533336814">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="145" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1598533336814" />
+    <state width="1638" height="145" key="GridCell.Tab.0.center" timestamp="1598533336813">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="145" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1598533336813" />
+    <state width="1638" height="145" key="GridCell.Tab.0.left" timestamp="1598533336813">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="145" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1598533336813" />
+    <state width="1638" height="145" key="GridCell.Tab.0.right" timestamp="1598533336814">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="145" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1598533336814" />
+    <state width="1638" height="325" key="GridCell.Tab.1.bottom" timestamp="1598526575707">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="325" key="GridCell.Tab.1.bottom/0.23.1680.976@0.23.1680.976" timestamp="1598526575707" />
+    <state width="1638" height="325" key="GridCell.Tab.1.center" timestamp="1598526575706">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="325" key="GridCell.Tab.1.center/0.23.1680.976@0.23.1680.976" timestamp="1598526575706" />
+    <state width="1638" height="325" key="GridCell.Tab.1.left" timestamp="1598526575706">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="325" key="GridCell.Tab.1.left/0.23.1680.976@0.23.1680.976" timestamp="1598526575706" />
+    <state width="1638" height="325" key="GridCell.Tab.1.right" timestamp="1598526575707">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="325" key="GridCell.Tab.1.right/0.23.1680.976@0.23.1680.976" timestamp="1598526575707" />
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1598484009376">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1598484009376" />
+  </component>
+</project>
