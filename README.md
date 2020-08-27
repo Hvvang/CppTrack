@@ -13,6 +13,11 @@
   - learning the high-level features of C++;
   - learning multithreading in C++.
   
+  
+### Implementations:
+  - std::[vector](sprint07/t00)
+  - std::[string](sprint07/t01)
+
 ### Optional:
   - learning the basics of game development [Snake](https://github.com/Hvvang/race00-C-SNAKE-);
   - learning the basics of data parsing.
