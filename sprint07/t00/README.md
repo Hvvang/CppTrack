@@ -2,13 +2,13 @@
 ### Custom implementation of std::vector.
 
 ### Constructors and Destructor
-- ```template <class T> Vector() {};```
+- ```template <class T> Vector();```
 - ```template <class T> explicit Vector(size_t size);```
 - ```template <class T> Vector(size_t size, const T& value);```
 - ```template <class T> Vector(iterator first, iterator last);```
 - ```template <class T> Vector(const std::initializer_list<T>& lst);```
 - ```template <class T> Vector(const Vector<T>& other);```
-- ```template <class T> ~Vector() {};```
+- ```template <class T> ~Vector();```
 
 
 ### Operators
