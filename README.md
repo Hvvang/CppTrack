@@ -4,14 +4,14 @@
 ### Learned concepts:
   - basics of input/output, memory allocation, typecasting, references and pointers;
   - using the standard library.;
-  - learning STL;
-  - learning iterators;
-  - learning OOP basics;
-  - learning the main features of OOP;
-  - learning the advanced features of OOP;
-  - learning deeply about how containers work;
-  - learning the high-level features of C++;
-  - learning multithreading in C++.
+  - STL;
+  - iterators;
+  - OOP basics;
+  - the main features of OOP;
+  - the advanced features of OOP;
+  - deeply about how containers work;
+  - the high-level features of C++;
+  - multithreading in C++.
   
   
 ### Implementations:
